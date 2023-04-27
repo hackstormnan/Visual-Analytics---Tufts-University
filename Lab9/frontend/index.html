@@ -1,0 +1,43 @@
+<html>
+<header>
+    <title>HypoExplorer</title>
+    <link href="nouislider.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="nouislider.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</header>
+<body>
+  <script src="nouislider.min.js"></script>
+  <div class = "container">
+    <h1>Forest Fires in Gazorpazorp</h1><div id="viz"></div>
+    <div id="days" style="margin-top:10px">
+      <input type="checkbox" class="checkboxDays" value="'sun'" checked><label>Sunday</label>
+      <input type="checkbox" class="checkboxDays" value="'mon'" checked><label>Monday</label>
+      <input type="checkbox" class="checkboxDays" value="'tue'" checked><label>Tuesday</label>
+      <input type="checkbox" class="checkboxDays" value="'wed'" checked><label>Wednesday</label>
+      <input type="checkbox" class="checkboxDays" value="'thu'" checked><label>Thursday</label>
+      <input type="checkbox" class="checkboxDays" value="'fri'" checked><label>Friday</label>
+      <input type="checkbox" class="checkboxDays" value="'sat'" checked><label>Saturday</label>
+    </div>
+    <div id="months" style="margin-top:10px">
+      <input type="checkbox" class="checkboxMonths" value="'jan'" checked><label>Jan</label>
+      <input type="checkbox" class="checkboxMonths" value="'feb'" checked><label>Feb</label>
+      <input type="checkbox" class="checkboxMonths" value="'mar'" checked><label>Mar</label>
+      <input type="checkbox" class="checkboxMonths" value="'apr'" checked><label>Apr</label>
+      <input type="checkbox" class="checkboxMonths" value="'may'" checked><label>May</label>
+      <input type="checkbox" class="checkboxMonths" value="'jun'" checked><label>Jun</label>
+      <input type="checkbox" class="checkboxMonths" value="'jul'" checked><label>Jul</label>
+      <input type="checkbox" class="checkboxMonths" value="'aug'" checked><label>Aug</label>
+      <input type="checkbox" class="checkboxMonths" value="'sep'" checked><label>Sep</label>
+      <input type="checkbox" class="checkboxMonths" value="'oct'" checked><label>Oct</label>
+      <input type="checkbox" class="checkboxMonths" value="'nov'" checked><label>Nov</label>
+      <input type="checkbox" class="checkboxMonths" value="'dec'" checked><label>Dec</label>
+    </div>
+    <h3>Humidity</h3><div id="sliderHumidity" style="width:400pt; display: inline-block"></div>
+    <h3>Temperature</h3><div id="sliderTemp" style="width:400pt; display: inline-block"></div>
+    <h3>Wind</h3><div id="sliderWind" style="width:400pt; display: inline-block"></div>
+    <h3>SQL Script</h3><div id="sql"></div>
+  </div>
+</body>
+</html>
