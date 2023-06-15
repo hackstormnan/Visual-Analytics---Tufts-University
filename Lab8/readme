@@ -1,0 +1,7 @@
+In the previous lab, I implemented a coordinated multiple view (CMV) visualization. The CMV visualization consisted of two main components: a stacked area chart and a timeline. My objective was to establish bi-directional coordination between these two visualizations using Linking and Brushing techniques.
+
+To achieve this, I worked with several files, including index.html, js/main.js, js/stackedareachart.js, and js/timeline.js. Each file played a crucial role in defining the functionality and interaction of the visualization components.
+
+Throughout the lab, I successfully implemented two user selection mechanisms: selecting consistent objects and selecting value ranges. These mechanisms enhanced the exploratory capabilities of the visualization, allowing me to gain deeper insights into the data.
+
+By completing this project, I gained valuable hands-on experience in developing CMV visualizations and leveraging user selection techniques to facilitate data analysis and exploration.
