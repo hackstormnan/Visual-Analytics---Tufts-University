@@ -1,0 +1,46 @@
+body {
+    
+    position: relative;
+    margin: 50px;
+  }
+  
+  section{
+    
+    /* text-align:center; */
+    position: relative;
+    margin-top: 140px;
+    margin-left: 150px;
+  }
+
+  #analysis {
+    margin-left: 200px;
+  }
+
+  /*
+  h4 {
+    
+    color: #000000;
+    margin-left: 10%;
+    padding-top: 2%;
+    float: left;
+  }
+  */
+
+  analysish {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block; /* make it a block element with inline formatting */
+    margin-bottom: 80px; /* add some margin to the bottom */
+    margin-left: 70px;
+
+  }
+
+  analysisp {
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px; /* adjust the margin as needed */
+    margin-left: 300px;
+  }
+
