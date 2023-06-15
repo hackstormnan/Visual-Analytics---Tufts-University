@@ -1,0 +1,7 @@
+I worked on two main tasks in this project.
+
+Firstly, I focused on setting the initial data via an SQL query. I retrieved the minimum and maximum values of relevant columns from the forestfire table and parsed the query result to assign the appropriate variables. This task aimed to establish the initial data for further analysis.
+
+Secondly, I updated the scatterplot functionality. I modified the SQL query string in the constructSQL() function based on user adjustments made through sliders and checkboxes. The sliders allowed users to query attribute ranges, while checkboxes enabled selection of multiple days or months from the table. This update enhanced the dynamic nature of the scatterplot visualization.
+
+Both tasks contributed to the overall goal of developing a visualization system for model selection, empowering users to make informed decisions and improving the efficiency of the model selection process.
